@@ -7,12 +7,12 @@
 
 }
 
-#email:valid, #tel:valid, #url:valid {
+#email:valid, #url:valid {
 
 	background: green;
 }
 
-#email:invalid, #tel:invalid, #url:invalid {
+#email:invalid, #url:invalid {
 
 	background:red;
 }
