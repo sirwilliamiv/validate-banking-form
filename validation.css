@@ -7,17 +7,49 @@
 
 }
 
+#email:valid, #tel:valid, #url:valid {
+
+	background: green;
+}
+
+#email:invalid, #tel:invalid, #url:invalid {
+
+	background:red;
+}
+
+
+/*  does not work
 input[type=email]:valid,
-input[type=tel]:valid,
+
+
 input[type=url]:valid {
 	background: green;
 }
 
-input[type=email]:invalid,
-input[type=tel]:invalid,
-input[type=url]:invalid {
+input[type=tel]:valid {
+	background: green;
+}
+
+
+
+input[type=email]:invalid {
+	
 	background: red;
 }
+
+
+
+input[type=number]:invalid {
+	
+	background: red;
+}
+
+
+input[type=url]:invalid {
+
+	background: red;
+}
+*/
 
 
 
