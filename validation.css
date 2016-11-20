@@ -7,23 +7,17 @@
 
 }
 
-input[type="email"] {
-
-	input:invalid {
-					background-color: green;
-						}
-}
-input[type="tel"],
-input[type="url"] {
-
-			input:invalid {
-					background-color: green;
-						}
-
-			input:valid {
-
-				background-color: red;
+input[type=email]:valid,
+input[type=tel]:valid,
+input[type=url]:valid {
+	background: green;
 }
 
+input[type=email]:invalid,
+input[type=tel]:invalid,
+input[type=url]:invalid {
+	background: red;
 }
+
+
 
