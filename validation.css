@@ -1,0 +1,29 @@
+.container-fluid {
+
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 950px;
+	padding: 2rem;
+
+}
+
+input[type="email"] {
+
+	input:invalid {
+					background-color: green;
+						}
+}
+input[type="tel"],
+input[type="url"] {
+
+			input:invalid {
+					background-color: green;
+						}
+
+			input:valid {
+
+				background-color: red;
+}
+
+}
+
