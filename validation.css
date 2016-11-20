@@ -1,0 +1,55 @@
+.container-fluid {
+
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 950px;
+	padding: 2rem;
+
+}
+
+#email:valid, #url:valid {
+
+	background: green;
+}
+
+#email:invalid, #url:invalid {
+
+	background:red;
+}
+
+
+/*  does not work
+input[type=email]:valid,
+
+
+input[type=url]:valid {
+	background: green;
+}
+
+input[type=tel]:valid {
+	background: green;
+}
+
+
+
+input[type=email]:invalid {
+	
+	background: red;
+}
+
+
+
+input[type=number]:invalid {
+	
+	background: red;
+}
+
+
+input[type=url]:invalid {
+
+	background: red;
+}
+*/
+
+
+
